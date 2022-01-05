@@ -1,0 +1,45 @@
+.addvertise {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  line-height: 100px;
+}
+.hover {
+  border-bottom: 3px solid white;
+}
+.hover:hover {
+  border-bottom: 3px solid tomato;
+}
+.image1 {
+  position: relative;
+}
+.image1-text {
+  position: absolute;
+  z-index: 1;
+  bottom: 60px;
+  left: 40px;
+  color: whitesmoke;
+}
+.count {
+  clear: both;
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+}
+.vertical-menu > p:hover {
+  color: aliceblue;
+}
+
+@media (max-width: 576px) {
+  .topbar {
+    text-align: center;
+  }
+
+  .vertical-menu > p {
+    padding: 10px;
+    float: left;
+  }
+  .slider-text {
+    visibility: hidden;
+  }
+}
